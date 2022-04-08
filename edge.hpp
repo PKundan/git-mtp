@@ -1,11 +1,12 @@
 #ifndef _EDGE_H
 #define _EDGE_H
 
-#include "node.hpp"
 #include <iostream>
 #include <algorithm>
 #include <vector>
 #include <cmath>
+
+#include "node.hpp"
 #include "vectorFunctions.hpp"
 
 /*****************************************************************/
@@ -46,7 +47,7 @@ public:
         nodeIndices.push_back(iNodeDest);
     }
 
-    Edge(const std::vector<int> &nodeIndices_, const int &index_) : 
+    Edge(const std::vector<int> &nodeIndices_, const int &index_) :
                                 index(index_), nodeIndices(nodeIndices_) {}
 
     Edge(const Edge &edg);
