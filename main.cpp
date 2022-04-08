@@ -38,7 +38,7 @@ int main()
 {
     /** Specify Mesh-file name (.su2 format) **/
     std::string meshFileName = //"supersonicWedgeCoarse.su2";
-        "supersonicWedge15_0.4.su2";
+        "meshfiles/supersonicWedge15_0.4.su2";
     //"supersonicWedge15_0.4_0.01.su2";
     //"gmsh01.su2";
     //"untitled.su2";
