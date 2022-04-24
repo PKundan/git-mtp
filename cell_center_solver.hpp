@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 
+#include "constants.hpp"
 #include "node.hpp"
 #include "edge.hpp"
 #include "cell.hpp"
@@ -131,16 +132,17 @@ double timeStep(const double &CFL,
                 const std::vector<std::vector<double>> &U,
                 const std::vector<Node> &nodes,
                 std::vector<Edge> &edges,
-                std::vector<Cell> &cells)
+                std::vector<Cell> &cells,
+                const std::vector<double>& cellVolumes)
 {
     double delta_t_min = 1.;
     for (auto &cell : cells)
     {
         int i = cell.index;
-        double vol = cell.volume(nodes);
+        double vol = cellVolumes[i];
         double u = U[i][1] / U[i][0];
         double v = U[i][2] / U[i][0];
-        double c = sqrt(gamma * pressure(U[i]) / U[i][0]); /// define soundSpeed function
+        double c = sqrt(GAMMA * pressure(U[i]) / U[i][0]); /// define soundSpeed function
         double S_x = 0.;
         double S_y = 0.;
         std::vector<int> nIs = cell.nodeIndices;

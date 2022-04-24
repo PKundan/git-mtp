@@ -5,20 +5,13 @@
 #include<cmath>
 
 #include "node.hpp"
-
-// Constants
-const double pi = 3.14159265358979;
-const double R_air = 287.0;
-const double gamma = 1.4;
-const double gp1 = 2.4;
-const double gm1 = 0.4;
-//-----------------------------------------/
+#include "constants.hpp"
 
 void conservatives(const double &M, const double &p, const double &T,
 				   std::vector<double> &cons_, double theta = 0.0)
 {
 	double rho = p / T / R_air;
-	double V = M * sqrt(gamma * R_air * T);
+	double V = M * sqrt(GAMMA * R_air * T);
 	double u = V * cos(theta);
 	double v = V * sin(theta);
 

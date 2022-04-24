@@ -209,6 +209,19 @@ int findEdgeIndex(const Edge &edg, std::vector<Edge> &edges)
     return (*var).index;
 }
 
+int findEdgeIndex2(const Edge &edg, std::vector<Edge> &edges)
+{
+    auto var = std::find(edges.begin(), edges.end(), edg);
+    if (var == edges.end())
+    {
+        return -1;
+    }
+    else
+    {
+        return (*var).index;
+    }
+}
+
 Edge findEdge(const Edge &edg, std::vector<Edge> &edges)
 {
     auto var = std::find(edges.begin(), edges.end(), edg);
