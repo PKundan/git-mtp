@@ -1,16 +1,4 @@
-#ifndef _CELL_CENTER_SOLVER_H
-#define _CELL_CENTER_SOLVER_H
-
-#include <vector>
-#include <algorithm>
-
-#include "constants.hpp"
-#include "node.hpp"
-#include "edge.hpp"
-#include "cell.hpp"
-#include "eulerFunctions.hpp"
-#include "Roe_solver.hpp"
-#include "vectorFunctions.hpp"
+#include "..\include\cell_center_solver.h"
 
 void residualsCompute(const std::vector<Node> &nodes,
                       std::vector<Edge> &edges,
@@ -163,4 +151,3 @@ double timeStep(const double &CFL,
     return delta_t_min;
 }
 
-#endif

@@ -22,42 +22,79 @@
 
 /** Import other code files **/
 
-#include "constants.hpp"
-#include "vectorFunctions.hpp"
-#include "node.hpp"
-#include "edge.hpp"
-#include "cell.hpp"
-#include "readMesh.hpp"
-#include "dataStructure.hpp"
-#include "eulerFunctions.hpp"
-#include "Roe_solver.hpp"
-#include "cell_center_solver.hpp"
-#include "writeVTK.hpp"
+#include "include\constants.h"
+#include "include\vectorFunctions.h"
+#include "include\node.h"
+#include "include\edge.h"
+#include "include\cell.h"
+#include "include\readMesh.h"
+#include "include\dataStructure.h"
+#include "include\dataStructureMedianDual.h"
+#include "include\eulerFunctions.h"
+#include "include\Roe_solver.h"
+#include "include\cell_center_solver.h"
+#include "include\medianDualSolver.h"
+#include "include\writeVTK.h"
 //------------------------------------------/
 
 int main()
 {
     /** Specify Mesh-file name (.su2 format) **/
-    std::string meshFileName = "meshfiles/supersonic_wedge_fine_0.05.su2";
-    //"meshfiles/supersonicWedge15_0.4.su2";
-    //"supersonicWedge15_0.4_0.01.su2";
-    //"gmsh01.su2";
-    //"untitled.su2";
-    /** Initialize containers for nodes, edges nd cells **/
+    // std::string meshFileName = //"meshfiles/supersonic_wedge_fine_0.05.su2";
+    //     "meshfiles/rect_coarse.su2 ";
+
+    // /** Initialize containers for nodes, edges nd cells **/
+    // std::vector<Node> nodes;
+    // std::vector<Edge> edges;
+    // std::vector<Cell> cells;
+
+    // /** Read Mesh file **/
+
+    // std::cout << "Reading MeshFile" << std::endl;
+    // readMesh(meshFileName, nodes, cells, edges);
+    // std::cout << ".\n..\n...\nDone!" << std::endl;
+
+    // std::cout << "\n\nCreating edge-based datastructure" << std::endl;
+    // edgeStructure2(cells, edges);
+    // std::cout << ".\n..\n...\nDone!" << std::endl;
+
+    std::string fileName = "meshfiles/rect_coarse.su2";
+        // "meshfiles/supersonic_wedge_fine_0.05.su2";
+    //"meshfiles/naca4412_exp.su2";
+
     std::vector<Node> nodes;
+    std::vector<Edge> edgesPrimal;
+    std::vector<Cell> cellsPrimal;
+
     std::vector<Edge> edges;
-    std::vector<Cell> cells;
 
-    /** Read Mesh file **/
+    std::cout << "Reading Meshfile" << std::endl;
+    readMesh(fileName, nodes, cellsPrimal, edgesPrimal);
+    std::cout << ".\n..\n...Done!" << std::endl;
 
-    std::cout << "Reading MeshFile" << std::endl;
-    readMesh(meshFileName, nodes, cells, edges);
-    std::cout << ".\n..\n...\nDone!" << std::endl;
+    int nCells = nodes.size();
+    std::cout << "Creating datastructure" << std::endl;
+    makeEdgeDataStructVertexBased(nodes, cellsPrimal, edgesPrimal, edges);
+    std::cout << ".\n..\n...Done!" << std::endl;
 
-    std::cout << "\n\nCreating edge-based datastructure" << std::endl;
-    edgeStructure(cells, edges);
-    std::cout << ".\n..\n...\nDone!" << std::endl;
+    std::cout << "nodes" << std::endl;
+    for (const auto &elem : nodes)
+    {
+        std::cout << elem << std::endl;
+    }
 
+    std::cout << "cells" << std::endl;
+    for (const auto &elem : cellsPrimal)
+    {
+        std::cout << elem << std::endl;
+    }
+    std::cout << "edges" << std::endl;
+    for (const auto &elem : edges)
+    {
+        std::cout << elem << std::endl;
+    }
+
+#if 0
     size_t nEdges = edges.size();
     std::vector<Node> edgeNrmls(nEdges);
     std::vector<double> edgeLens(nEdges);
@@ -157,7 +194,7 @@ int main()
     /** Write solution in vtk format **/
     writeVTK("post-processing/solution.vtk", nodes, cells, Unp1);
     //-------------------------------------------------------
-    //#endif
+#endif
 
     return 0;
 }

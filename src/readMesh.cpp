@@ -1,15 +1,5 @@
-#ifndef _READMESH_H
-#define _READMESH_H
+#include "..\include\readMesh.h"
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <sstream>
-#include <fstream>
-
-#include "node.hpp"
-#include "edge.hpp"
-#include "cell.hpp"
 
 /********************************************************************************
 / readCell Function : reads the line containing cell info(su2 format)           /
@@ -188,4 +178,3 @@ void readMesh(std::string &fileName,
         std::cout << "File does not exist!" << std::endl;
     }
 }
-#endif

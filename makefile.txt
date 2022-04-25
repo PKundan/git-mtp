@@ -1,0 +1,32 @@
+readMesh.o : src\readMesh.cpp include\readMesh.h edge.o cell.o
+	$(CC) $(CFLAGS) src\readMesh.cpp edge.o cell.o
+
+dataStructure.o : src\dataStructure.cpp include\dataStructure.h edge.o cell.o
+	$(CC) $(CFLAGS) src\dataStructure.cpp edge.o cell.o
+
+datastructureMedianDual.o : src\dataStructureMedianDual.cpp include\dataStructureMedianDual.h edge.o cell.o
+	$(CC) $(CFLAGS) src\dataStructureMedianDual.cpp edge.o cell.o
+	
+cell_center_solver.o : src\cell_center_solver.cpp include\cell_center_solver.h edge.o cell.o Roe_solver.o
+	$(CC) $(CFLAGS) src\cell_center_solver.cpp edge.o cell.o Roe_solver.o
+	
+writeVTK.o : src\writeVTK.cpp include\writeVTK.h edge.o cell.o eulerFunctions.o
+	$(CC) $(CFLAGS) src\writeVTK.cpp edge.o cell.o eulerFunctions.o
+	
+edge.o : src\edge.cpp include\edge.h node.o vectorFunctions.o
+	$(CC) $(CFLAGS) src\edge.cpp node.o vectorFunctions.o
+	
+cell.o : src\cell.cpp include\cell.h node.o
+	$(CC) $(CFLAGS) src\cell.cpp node.o
+
+Roe_solver.o : src\Roe_solver.cpp include\Roe_solver.h eulerFunctions.o
+	$(CC) $(CFLAGS) src\Roe_solver.cpp eulerFunctions.o
+
+eulerFunctions.o : src\eulerFunctions.cpp include\eulerFunctions.h node.o
+	$(CC) $(CFLAGS) src\eulerFunctions.cpp node.o 
+	
+node.o : src\node.cpp include\node.h
+	$(CC) $(CFLAGS) src\node.cpp
+
+vectorFunctions.o : src\vectorFunctions.cpp include\vectorFunctions.h
+	$(CC) $(CFLAGS) src\vectorFunctions.cpp

@@ -1,7 +1,4 @@
-#ifndef _VECTORFUNCTIONS_H
-#define _VECTORFUNCTIONS_H
-
-#include<vector>
+#include "..\include\vectorFunctions.h"
 
 std::vector<double> vectorMultScalar2(std::vector<double>& v1, double k) {
 	for (unsigned int i = 0; i < v1.size(); i++) {
@@ -25,7 +22,7 @@ std::vector<double> vectorAdd(const std::vector<double>& v1, const std::vector<d
 	return v3;
 }
 
-template<typename T>
+template<class T>
 std::vector<T> vectorReverse(const std::vector<T>& v1){
     std::vector<T> v2(v1.size());
     int i = 0;
@@ -64,5 +61,3 @@ void vectorAssignNegative(const std::vector<double>& v1, std::vector<double>& v2
 		v2[i] -= elem; i += 1;
     }
 }
-
-#endif

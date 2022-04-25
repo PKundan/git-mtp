@@ -1,16 +1,4 @@
-#ifndef _WRITEVTK_H
-#define _WRITEVTK_H
-
-#include<iostream>
-#include<string>
-#include<vector>
-#include<fstream>
-
-#include "node.hpp"
-#include "edge.hpp"
-#include "cell.hpp"
-#include "eulerFunctions.hpp"
-
+#include "..\include\writeVTK.h"
 
 void writeVTK(const std::string& fileName,\
               const std::vector<Node>& nodes,\
@@ -108,4 +96,3 @@ void writeVTK_vertexCentered(const std::string& fileName,\
         " " << Unp1[i][2]/Unp1[i][0] << " 0.0" << std::endl; // Triangular elements
     }
 }
-#endif

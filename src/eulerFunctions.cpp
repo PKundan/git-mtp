@@ -1,11 +1,4 @@
-#ifndef _EulerFunctions_H
-#define _EulerFunctions_H
-
-#include <vector>
-#include<cmath>
-
-#include "node.hpp"
-#include "constants.hpp"
+#include "..\include\eulerFunctions.h"
 
 void conservatives(const double &M, const double &p, const double &T,
 				   std::vector<double> &cons_, double theta = 0.0)
@@ -37,4 +30,4 @@ void conservativesWall(const std::vector<double> &U_wall,
 	FcWall[2] = pWall * nrml.y;
 }
 
-#endif
+

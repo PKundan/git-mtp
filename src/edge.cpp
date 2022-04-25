@@ -1,78 +1,4 @@
-#ifndef _EDGE_H
-#define _EDGE_H
-
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <cmath>
-
-#include "node.hpp"
-#include "vectorFunctions.hpp"
-
-/*****************************************************************/
-// ----------------------Edge class-------------------------------/
-/*****************************************************************/
-/* Attributes:
-        index            : edge index in vector of edges
-        nodeIndices      : indices of nodes forming the edge
-        left_cell_index  : index of cell left to the edge
-        right_cell_index : index of right left to the edge
-        boundaryFlag     : 1 if edge is at boundary, otherwise 0
-/* Methods :
-        nrml   : compute outward normal to the edge
-        SxSy   : Compute x and y componenets of face vector S
-        center : compute the edge center
-        len    : compute the lenghth of edge
-
-/* Operators :
-        =    : Assignment operator
-        ==   : comaprison operator
-        <<   :  to print cell attributes on console
-/******************************************************************/
-
-class Edge
-{
-public:
-    int index;
-    std::vector<int> nodeIndices;
-    int left_cell_index, right_cell_index;
-    int boundaryFlag = 0;
-    // std::string tag = "";
-
-    Edge() {}
-
-    Edge(const int &iNodeOrg, const int &iNodeDest)
-    {
-        nodeIndices.push_back(iNodeOrg);
-        nodeIndices.push_back(iNodeDest);
-    }
-
-    Edge(const std::vector<int> &nodeIndices_, const int &index_) :
-                                index(index_), nodeIndices(nodeIndices_) {}
-
-    Edge(const Edge &edg);
-
-    Edge operator=(Edge &edg);
-
-    bool operator==(Edge const &edg) const;
-
-    Node nrml(const std::vector<Node> &nodes);
-
-    static Node nrml(const Node &v1, const Node &v2);
-
-    Node SxSy(const std::vector<Node> &nodes);
-
-    Node center(const std::vector<Node> &nodes);
-    static Node center(const Node &v1, const Node &v2);
-
-    double len(const std::vector<Node> &nodes);
-
-    static double len(const Node &v1, const Node &v2);
-
-    // inline int getIndex() { return index; }
-
-    friend std::ostream &operator<<(std::ostream &os, const Edge &edg);
-};
+#include "..\include\edge.h"
 
 Edge::Edge(const Edge &edg)
 {
@@ -95,7 +21,7 @@ Edge Edge::operator=(Edge &edg)
 
 bool Edge::operator==(Edge const &edg) const
 {
-    return (edg.nodeIndices == this->nodeIndices);
+    return (edg.nodeIndices == this->nodeIndices || reverseEdge(edg).nodeIndices == this->nodeIndices);
 }
 
 Node Edge::nrml(const std::vector<Node> &nodes)
@@ -173,18 +99,21 @@ bool isEdgeEqual(const Edge &edg1, const Edge &edg2)
     return ((edg1.nodeIndices == edg2.nodeIndices));
 }
 /* Check whether edges are 'opposite' */
-bool isEdgeOpposite(const Edge &edg1, const Edge &edg2)
-{
-    return (edg1.nodeIndices == vectorReverse(edg2.nodeIndices));
-}
+// bool isEdgeOpposite(const Edge &edg1, const Edge &edg2)
+// {
+//     // int tmp = edg2.nodeIndices[0];
+//     // edg2.nodeIndices[0] = edg2.nodeIndices[1];
+//     // edg2.node
+//     return (edg1.nodeIndices == vectorReverse(edg2.nodeIndices));
+// }
 
 /* Check whether vector of edges contains particular edge */
-bool includesEdge(const Edge &edg, const std::vector<Edge> &edges)
-{
-    return (std::any_of(edges.begin(),
-                        edges.end(), [&edg](auto edg1)
-                        { return (isEdgeEqual(edg, edg1) || isEdgeOpposite(edg, edg1)); }));
-}
+// bool includesEdge(const Edge &edg, const std::vector<Edge> &edges)
+// {
+//     return (std::any_of(edges.begin(),
+//                         edges.end(), [&edg](auto edg1)
+//                         { return (isEdgeEqual(edg, edg1) || isEdgeOpposite(edg, edg1)); }));
+// }
 
 /* Check whether the edge is 'equal' to edge present in vector */
 bool isIncludedEdgeEqual(const Edge &edg, const std::vector<Edge> &edges)
@@ -195,12 +124,12 @@ bool isIncludedEdgeEqual(const Edge &edg, const std::vector<Edge> &edges)
 }
 
 /* Check whether the edge is 'opposite' to edge present in vector */
-bool isIncludedEdgeOpposite(const Edge &edg, const std::vector<Edge> &edges)
-{
-    return (std::any_of(edges.begin(),
-                        edges.end(), [&edg](auto edg1)
-                        { return (isEdgeOpposite(edg, edg1)); }));
-}
+// bool isIncludedEdgeOpposite(const Edge &edg, const std::vector<Edge> &edges)
+// {
+//     return (std::any_of(edges.begin(),
+//                         edges.end(), [&edg](auto edg1)
+//                         { return (isEdgeOpposite(edg, edg1)); }));
+// }
 
 /* Find the index of the edge in a vector */
 int findEdgeIndex(const Edge &edg, std::vector<Edge> &edges)
@@ -231,13 +160,13 @@ Edge findEdge(const Edge &edg, std::vector<Edge> &edges)
 
 /* Reverse edge: by swapping node indices and interchanging\
  left_cell_index and right_cell_index */
-Edge reverseEdge(const Edge &edg)
+Edge reverseEdge(Edge edg)
 {
-    Edge edg2(edg);
-    edg2.nodeIndices = vectorReverse(edg.nodeIndices);
-    edg2.left_cell_index = edg.right_cell_index;
-    edg2.right_cell_index = edg.left_cell_index;
-    return edg2;
+    int tmp = edg.nodeIndices[0];
+    edg.nodeIndices[0] = edg.nodeIndices[1];
+    edg.nodeIndices[1] = tmp;
+    tmp = edg.left_cell_index;
+    edg.left_cell_index = edg.right_cell_index;
+    edg.right_cell_index = tmp;
+    return edg;
 }
-
-#endif
