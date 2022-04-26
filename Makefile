@@ -7,9 +7,6 @@ Objs = main.o readMesh.o dataStructure.o datastructureMedianDual.o\
 
 all : output
  
-#output: main.o readMesh.o dataStructure.o datastructureMedianDual.o cell_center_solver.o writeVTK.o edge.o cell.o Roe_solver.o eulerFunctions.o node.o vectorFunctions.o 
-#	$(CC) main.o readMesh.o dataStructure.o datastructureMedianDual.o cell_center_solver.o writeVTK.o edge.o cell.o Roe_solver.o eulerFunctions.o node.o vectorFunctions.o -o output
-
 output : $(Objs)
 	$(CC) $(Objs) -o output
 
@@ -55,8 +52,8 @@ vectorFunctions.o : src\vectorFunctions.cpp include\vectorFunctions.h
 clean:
 	rm -rf *.o output
 
-result:
+res:
 	python .\post-processing\converge_plot.py -f post-processing\convergePlot.csv
 
-visualize:
+vis:
 	paraview .\post-processing\solution.vtk

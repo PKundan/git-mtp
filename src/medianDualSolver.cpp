@@ -19,20 +19,32 @@ void medianDualVolumes(const std::vector<Node> &nodes,
     }
 }
 
-void medianDualAbsSurafceVectors(const std::vector<Node> &nodes,
-                                 std::vector<Edge> &edges,
-                                 std::vector<Node> &surfVecs)
+void absSurfaceVectors(const std::vector<Node> &nodes,
+                       std::vector<Edge> &edges,
+                       std::vector<Node> &surfVecs)
 {
+    if (surfVecs.empty())
+    {
+        std::cout << "initialize surfvecs to zero" << std::endl;
+    }
     for (auto &edge : edges)
     {
         int iL, iR;
         iL = edge.left_cell_index;
         iR = edge.right_cell_index;
         Node S = edge.SxSy(nodes);
-        surfVecs[iL].x += 0.5 * std::fabs(S.x);
-        surfVecs[iL].y += 0.5 * std::fabs(S.y);
-        surfVecs[iR].x += 0.5 * std::fabs(S.x);
-        surfVecs[iR].y += 0.5 * std::fabs(S.y);
+        if (edge.boundaryFlag != 0)
+        {
+            surfVecs[iL].x += 0.5 * std::fabs(S.x);
+            surfVecs[iL].y += 0.5 * std::fabs(S.y);
+        }
+        else
+        {
+            surfVecs[iL].x += 0.5 * std::fabs(S.x);
+            surfVecs[iL].y += 0.5 * std::fabs(S.y);
+            surfVecs[iR].x += 0.5 * std::fabs(S.x);
+            surfVecs[iR].y += 0.5 * std::fabs(S.y);
+        }
     }
 }
 

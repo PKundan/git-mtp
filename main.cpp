@@ -39,66 +39,77 @@
 
 int main()
 {
-    /** Specify Mesh-file name (.su2 format) **/
-    // std::string meshFileName = //"meshfiles/supersonic_wedge_fine_0.05.su2";
-    //     "meshfiles/rect_coarse.su2 ";
-
-    // /** Initialize containers for nodes, edges nd cells **/
-    // std::vector<Node> nodes;
-    // std::vector<Edge> edges;
-    // std::vector<Cell> cells;
-
-    // /** Read Mesh file **/
-
-    // std::cout << "Reading MeshFile" << std::endl;
-    // readMesh(meshFileName, nodes, cells, edges);
-    // std::cout << ".\n..\n...\nDone!" << std::endl;
-
-    // std::cout << "\n\nCreating edge-based datastructure" << std::endl;
-    // edgeStructure2(cells, edges);
-    // std::cout << ".\n..\n...\nDone!" << std::endl;
-
-    std::string fileName = "meshfiles/rect_coarse.su2";
-        // "meshfiles/supersonic_wedge_fine_0.05.su2";
+    std::string method =
+        "CELL_CENTER";
+        // "CELL_VERTEX";
+    std::string fileName =
+        // "meshfiles/rect_coarse.su2";
+    "meshfiles/supersonic_wedge_fine_0.05.su2";
     //"meshfiles/naca4412_exp.su2";
 
     std::vector<Node> nodes;
-    std::vector<Edge> edgesPrimal;
+    std::vector<Edge> edges;
+    std::vector<Cell> cells;
     std::vector<Cell> cellsPrimal;
 
-    std::vector<Edge> edges;
+    int nCells, nEdges, nNodes;
 
-    std::cout << "Reading Meshfile" << std::endl;
-    readMesh(fileName, nodes, cellsPrimal, edgesPrimal);
-    std::cout << ".\n..\n...Done!" << std::endl;
-
-    int nCells = nodes.size();
-    std::cout << "Creating datastructure" << std::endl;
-    makeEdgeDataStructVertexBased(nodes, cellsPrimal, edgesPrimal, edges);
-    std::cout << ".\n..\n...Done!" << std::endl;
-
-    std::cout << "nodes" << std::endl;
-    for (const auto &elem : nodes)
+    if (method == "CELL_VERTEX")
     {
-        std::cout << elem << std::endl;
-    }
+        std::vector<Edge> edgesPrimal;
+        std::cout << "Reading Meshfile" << std::endl;
+        readMesh(fileName, nodes, cellsPrimal, edgesPrimal);
+        std::cout << ".\n..\n...Done!" << std::endl;
 
-    std::cout << "cells" << std::endl;
-    for (const auto &elem : cellsPrimal)
-    {
-        std::cout << elem << std::endl;
-    }
-    std::cout << "edges" << std::endl;
-    for (const auto &elem : edges)
-    {
-        std::cout << elem << std::endl;
-    }
+        nCells = nodes.size();
 
-#if 0
-    size_t nEdges = edges.size();
+        std::cout << "Creating datastructure" << std::endl;
+        makeEdgeDataStructVertexBased(nodes, cellsPrimal, edgesPrimal, edges);
+        nNodes = nodes.size();
+        nEdges = edges.size();
+        std::cout << "nodes : " << nNodes << "\nCells : "
+                  << nCells << "\nEdges : " << nEdges << "\n... Done !" << std::endl;
+    }
+    else if (method == "CELL_CENTER")
+    {
+        std::cout << "Reading MeshFile" << std::endl;
+        readMesh(fileName, nodes, cells, edges);
+        std::cout << ".\n..\n...\nDone!" << std::endl;
+
+        std::cout << "\n\nCreating edge-based datastructure" << std::endl;
+        edgeStructure2(cells, edges);
+
+        nNodes = nodes.size();
+        nEdges = edges.size();
+        nCells = cells.size();
+        std::cout << "nodes : " << nNodes << "\nCells : "
+                  << nCells << "\nEdges : " << nEdges << "\n... Done !" << std::endl;
+    }
+    else
+    {
+        std::cout << "DEFINE METHOD CORRECTLY! (CELL_CENTER/ CELL_VERTEX)" << std::endl;
+    }
+    // int k = 0;
+    // for (const auto &elem : edges)
+    // {
+    //     std::cout << k << "\t" << elem << std::endl;
+    //     ++k;
+    // }
+    std::vector<Node> surfVecs(nCells);
     std::vector<Node> edgeNrmls(nEdges);
-    std::vector<double> edgeLens(nEdges);
-    std::vector<double> cellVolumes(cells.size());
+    std::vector<double> edgeLens(nEdges, 0.0);
+    std::vector<double> cellVolumes(nCells, 0.0);
+    // for (const auto &elem : cellVolumes)
+    // {
+    //     std::cout << elem << std::endl;
+    // }
+    absSurfaceVectors(nodes, edges, surfVecs);
+    int k = 0;
+    for (const auto &elem : surfVecs)
+    {
+        std::cout << k << "\t" << elem << std::endl;
+        ++k;
+    }
 
     // compute nrmls and lengths of all edges and store in edgeNrmls & edgeLens vectors resply.
     for (size_t iE = 0; iE != nEdges; ++iE)
@@ -106,21 +117,21 @@ int main()
         edgeNrmls[iE] = edges[iE].nrml(nodes);
         edgeLens[iE] = edges[iE].len(nodes);
     }
-    // compute volume of all cells and store in cellVolumes vector
-    for (size_t iC = 0; iC != cells.size(); ++iC)
+
+    if (method == "CELL_VERTEX")
     {
-        cellVolumes[iC] = cells[iC].volume(nodes);
+        // Quantities associated with median dual control volumes
+        medianDualVolumes(nodes, edges, cellVolumes);
+    }
+    else if (method == "CELL_CENTER")
+    {
+        // compute volume of all cells and store in cellVolumes vector
+        for (size_t iC = 0; iC != cells.size(); ++iC)
+        {
+            cellVolumes[iC] = cells[iC].volume(nodes);
+        }
     }
 
-    /** console output edge and cell data structures **/
-    // std::cout << "\nEdges" << std::endl;\
-    for(const auto& edg : edges)\
-        std::cout << edg << std::endl;
-
-    //std::cout << "\nCells" << std::endl;\
-    for(const auto& cell : cells)\
-        std::cout << cell << std::endl;
-    //#if 0
     //------------------------------------------------------
     /** ------------Upstream Conditions --------------------------- **/
     double p_upstream = 101353.0, // Pa
@@ -135,16 +146,15 @@ int main()
     //------------------------------------------------------------------
 
     /** Create containers for solutions at nth (Un) and (n+1)th (Unp1) time **/
-    size_t nCells = cells.size();
-    std::vector<std::vector<double>> Residuals(nCells, std::vector<double>(4, 0));
-    std::vector<std::vector<double>> Un(nCells, std::vector<double>(4, 0));
-    std::vector<std::vector<double>> Unp1(nCells, std::vector<double>(4, 0));
+    std::vector<std::vector<double>> Residuals(nCells, std::vector<double>(4, 0.));
+    std::vector<std::vector<double>> Un(nCells, std::vector<double>(4, 0.));
+    std::vector<std::vector<double>> Unp1(nCells, std::vector<double>(4, 0.));
 
     /** Intialization of the solution with upstream conditions**/
     for (auto &U : Un)
     {
         vectorAssign(UInlet, U);
-    } // init
+    }
     //------------------------------------------------------------------------------
 
     /** declaration of parameters for computation **/
@@ -153,7 +163,7 @@ int main()
     double tolerance = 1e-8; /** for convergence **/
 
     std::fstream fout; /** Open file to write convergence history **/
-    fout.open("post-processing/convergePlot.csv", std::ios::out);
+    fout.open("post-processing/history.csv", std::ios::out);
     fout << "iter"
          << ",RSS" << std::endl;
 
@@ -161,22 +171,21 @@ int main()
     double RSS = 10.0;
     double delta_t = 1e-9;
     int iter = 0;
+
     while (RSS > tolerance && iter < maxIter)
     { /** stopping criteria **/
         /** Residual computation by iterating over edges **/
-        // residualsCompute(nodes, edges,
-        //                  UInlet, Un, Residuals);
         residualsCompute(edges, edgeLens, edgeNrmls, UInlet, Un, Residuals);
         //-------------------------------------------------
         double rho_sum = 0.0;
         /** optimal time-step computation **/
-        delta_t = timeStep(CFL, Un, nodes, edges, cells, cellVolumes);
+        delta_t = medianDualTimeStep(CFL, Un, cellVolumes, surfVecs);
         //-------------------------------------------------
         /** Iterate over cells **/
         for (int j = 0; j < nCells; j++)
         {
             // double vol = cells[j].volume(nodes);            /** Compute cell volume **/
-            double vol = cellVolumes[j];                    /** Compute cell volume **/
+            double vol = cellVolumes[j];                        /** Compute cell volume **/
             vectorMultScalar(Residuals[j], -delta_t / vol); /** R = R* -delta_t/volume **/
             Unp1[j] = vectorAdd(Un[j], Residuals[j]);       /** Unp1 = Un + R **/
 
@@ -186,15 +195,30 @@ int main()
         RSS = sqrt(rho_sum / nCells);
         iter += 1;
         fout << iter << "," << RSS << std::endl;
-        std::cout << "iter : " << iter << "\t delta_t :" << delta_t << "\tRSS : " << RSS << std::endl;
+        if (iter%100 == 0)
+            std::cout << "iter : " << iter << "\t delta_t :" << delta_t << "\tRSS : " << RSS << std::endl;
     }
     fout.close();
     /** ------------------ solution complete -------------- **/
 
     /** Write solution in vtk format **/
-    writeVTK("post-processing/solution.vtk", nodes, cells, Unp1);
+    if (method == "CELL_VERTEX")
+    {
+        std::vector<Node> vertices(nCells);
+        for (int k = 0; k < nCells; ++k)
+        {
+            vertices[k] = nodes[k];
+        }
+        std::string slnFilename = "post-processing/cell_vertex_solution.vtk";
+        writeVTK_vertexCentered(slnFilename, vertices, cellsPrimal, Unp1);
+    }
+    else if (method == "CELL_CENTER")
+    {
+        std::string slnFilename = "post-processing/cell_center_solution.vtk";
+        writeVTK(slnFilename, nodes, cells, Unp1);
+    }
     //-------------------------------------------------------
-#endif
+    //#endif
 
     return 0;
 }

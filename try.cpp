@@ -30,9 +30,9 @@ void medianDualVolumes(const std::vector<Node> &nodes,
     }
 }
 
-void medianDualAbsSurafceVectors(const std::vector<Node> &nodes,
-                                 std::vector<Edge> &edges,
-                                 std::vector<Node> &surfVecs)
+void absSurafceVectors(const std::vector<Node> &nodes,
+                       std::vector<Edge> &edges,
+                       std::vector<Node> &surfVecs)
 {
     for (auto &edge : edges)
     {
@@ -71,34 +71,57 @@ double medianDualTimeStep(const double &CFL,
 
 int main()
 {
-    std::string fileName = //"meshfiles/rect_coarse.su2";
+    std::string method = "CELL_CENTER"; // CELL_VERTEX;
+    std::string fileName =              //"meshfiles/rect_coarse.su2";
         "meshfiles/supersonic_wedge_fine_0.05.su2";
-		//"meshfiles/naca4412_exp.su2";
+    //"meshfiles/naca4412_exp.su2";
 
     std::vector<Node> nodes;
-    std::vector<Edge> edgesPrimal;
-    std::vector<Cell> cellsPrimal;
-
     std::vector<Edge> edges;
+    std::vector<Cell> cells;
 
-    std::cout << "Reading Meshfile" << std::endl;
-    readMesh(fileName, nodes, cellsPrimal, edgesPrimal);
-    std::cout << ".\n..\n...Done!" << std::endl;
+    int nCells, nEdges, nNodes;
 
-    int nCells = nodes.size();
-    std::cout << "Creating datastructure" << std::endl;
-    makeEdgeDataStructVertexBased(nodes, cellsPrimal, edgesPrimal, edges);
-    std::cout << ".\n..\n...Done!" << std::endl;
+    if (method == "CELL_VETEX")
+    {
+        std::vector<Edge> edgesPrimal;
+        std::vector<Cell> cellsPrimal;
+        std::cout << "Reading Meshfile" << std::endl;
+        readMesh(fileName, nodes, cellsPrimal, edgesPrimal);
+        std::cout << ".\n..\n...Done!" << std::endl;
 
-    // int k = 0;
-    // for (auto &elem : edges){
-    //     std::cout << elem << std::endl;
-    //     ++k;
-    // }
+        nCells = nodes.size();
 
-    size_t nEdges = edges.size();
+        std::cout << "Creating datastructure" << std::endl;
+        makeEdgeDataStructVertexBased(nodes, cellsPrimal, edgesPrimal, edges);
+        nNodes = nodes.size();
+        nEdges = edges.size();
+        std::cout << "nodes : " << nNodes << "\nCells : "
+                  << nCells << "\nEdges : " << nEdges << ""\n... Done !" << std::endl;
+    }
+    else if (method == "CELL_CENTER")
+    {
+        std::cout << "Reading MeshFile" << std::endl;
+        readMesh(meshFileName, nodes, cells, edges);
+        std::cout << ".\n..\n...\nDone!" << std::endl;
+
+        std::cout << "\n\nCreating edge-based datastructure" << std::endl;
+        edgeStructure2(cells, edges);
+
+        nNodes = nodes.size();
+        nEdges = edges.size();
+        nCells = cells.size();
+        std::cout << "nodes : " << nNodes << "\nCells : "
+                  << nCells << "\nEdges : " << nEdges << ""\n... Done !" << std::endl;
+    }
+    else
+    {
+        std::cout << "DEFINE METHOD CORRECTLY! (CELL_CENTER/ CELL_VERTEX)" << std::endl;
+    }
+
     std::vector<Node> edgeNrmls(nEdges);
-    std::vector<double> edgeLens(nEdges);
+    std::vector<double> edgeLens(nEdges, 0.0);
+    std::vector<double> cellVolumes(nCells, 0.0);
 
     // compute nrmls and lengths of all edges and store in edgeNrmls & edgeLens vectors resply.
     for (size_t iE = 0; iE != nEdges; ++iE)
@@ -106,13 +129,22 @@ int main()
         edgeNrmls[iE] = edges[iE].nrml(nodes);
         edgeLens[iE] = edges[iE].len(nodes);
     }
-
-    // Quantities associated with median dual control volumes
-    std::vector<double> volumes(nCells, 0.0);
-    medianDualVolumes(nodes, edges, volumes);
+    if (method == "CELL_VERTEX")
+    {
+        // Quantities associated with median dual control volumes
+        medianDualVolumes(nodes, edges, cellVolumes);
+    }
+    else if (method == "CELL_CENTER")
+    {
+        // compute volume of all cells and store in cellVolumes vector
+        for (size_t iC = 0; iC != cells.size(); ++iC)
+        {
+            cellVolumes[iC] = cells[iC].volume(nodes);
+        }
+    }
 
     std::vector<Node> surfVecs(nCells);
-    medianDualAbsSurafceVectors(nodes, edges, surfVecs);
+    absSurafceVectors(nodes, edges, surfVecs);
 
     //------------------------------------------------------
     /** ------------Upstream Conditions --------------------------- **/
@@ -128,9 +160,9 @@ int main()
     //------------------------------------------------------------------
 
     /** Create containers for solutions at nth (Un) and (n+1)th (Unp1) time **/
-    std::vector<std::vector<double>> Residuals(nCells, std::vector<double>(4, 0));
-    std::vector<std::vector<double>> Un(nCells, std::vector<double>(4, 0));
-    std::vector<std::vector<double>> Unp1(nCells, std::vector<double>(4, 0));
+    std::vector<std::vector<double>> Residuals(nCells, std::vector<double>(4, 0.));
+    std::vector<std::vector<double>> Un(nCells, std::vector<double>(4, 0.));
+    std::vector<std::vector<double>> Unp1(nCells, std::vector<double>(4, 0.));
 
     /** Intialization of the solution with upstream conditions**/
     for (auto &U : Un)
@@ -170,6 +202,14 @@ int main()
         double rho_sum = 0.0;
         /** optimal time-step computation **/
         delta_t = medianDualTimeStep(CFL, Un, volumes, surfVecs);
+        // if (method == "CELL_VERTEX")
+        // {
+        //     delta_t = medianDualTimeStep(CFL, Un, volumes, surfVecs);
+        // }
+        // else if (method == "CELL_CENTER")
+        // {
+        //     delta_t = timeStep(CFL, Un, nodes, edges, cells, cellVolumes);
+        // }
         //-------------------------------------------------
         /** Iterate over cells **/
         for (int j = 0; j < nCells; j++)
@@ -190,13 +230,20 @@ int main()
     fout.close();
     /** ------------------ solution complete -------------- **/
 
-    std::vector<Node> vertices(nCells);
-    for(int k=0; k<nCells; ++k){
-        vertices[k] = nodes[k];
-    }
-
     /** Write solution in vtk format **/
-    writeVTK_vertexCentered("post-processing/solution.vtk", vertices, cellsPrimal, Unp1);
+    if (method == "CELL_VERTEX")
+    {
+        std::vector<Node> vertices(nCells);
+        for (int k = 0; k < nCells; ++k)
+        {
+            vertices[k] = nodes[k];
+        }
+        writeVTK_vertexCentered("post-processing/solution.vtk", vertices, cellsPrimal, Unp1);
+    }
+    else if (method == "CELL_CENTER")
+    {
+        writeVTK("post-processing/solution.vtk", nodes, cells, Unp1);
+    }
     // //-------------------------------------------------------
     // //#endif
 

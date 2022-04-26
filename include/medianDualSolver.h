@@ -11,7 +11,7 @@ void medianDualVolumes(const std::vector<Node> &nodes,
                        std::vector<Edge> &edges,
                        std::vector<double> &volumes);
                        
-void medianDualAbsSurafceVectors(const std::vector<Node> &nodes,
+void absSurfaceVectors(const std::vector<Node> &nodes,
                                  std::vector<Edge> &edges,
                                  std::vector<Node> &surfVecs);
 

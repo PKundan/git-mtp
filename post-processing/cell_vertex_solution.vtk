@@ -4096,4846 +4096,2602 @@ CELL_TYPES 1612
 5
 5
 5
-CELL_DATA 1612
+POINT_DATA 864
 SCALARS density float
 LOOKUP_TABLE default
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
+1.22238
+1.55093
+2.25257
+3.78348
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.17727
+2.25078
+2.30128
+2.30746
+2.27584
+2.25253
+2.24603
+2.24265
+2.24008
+2.23888
+2.23892
+2.23977
+2.24155
+2.24297
+2.24395
+2.24472
+2.24556
+2.24617
+2.24664
+2.24717
+2.24753
+2.24816
+2.24864
+2.24902
+2.24935
+2.24968
+2.25005
+2.25038
+2.25074
+2.25101
+2.25131
+2.25166
+2.25208
+2.25351
+2.25618
+2.26206
+2.27622
+2.31231
+2.42424
+2.65408
+3.0042
+3.37779
+3.618
+3.73581
+3.74638
+3.65199
+3.50159
+3.28445
+2.97543
+2.57013
+2.11136
+1.71794
+1.44114
+1.30696
+1.25096
+1.23161
+1.22526
+1.22322
+1.22261
+1.22243
+1.22239
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.1161
+1.22238
+2.23211
+1.22238
+2.23951
+1.22238
+1.22238
+2.24543
+1.22238
+2.24762
+2.24954
+1.22309
+1.81728
+1.22238
+2.25111
+2.32474
+1.22238
+1.22238
+1.29102
+1.22238
+2.88221
+1.63285
+1.22238
+1.22238
+2.2519
+3.09241
+1.22238
+1.23007
+1.22243
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.20008
+2.23738
+2.24327
+2.24671
+2.2489
+2.25036
+2.2646
+3.44607
+2.2543
+1.22238
+1.22238
+3.63883
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22245
+1.22241
+1.22301
+1.22268
+1.22238
+1.22238
+1.22608
+1.2242
+1.23887
+1.2308
+1.28097
+1.25377
+1.22663
+1.23892
+1.3203
+1.27665
+1.46571
+1.37503
+1.22238
+1.22238
+1.65938
+1.54606
+1.22238
+1.22238
+1.84616
+1.73869
+1.4411
+1.62613
+1.91122
+1.81335
+2.04327
+1.96925
+2.13309
+2.08213
+1.22451
+2.18946
+2.15745
+1.22988
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.22302
+2.20439
+2.24225
+2.23208
+2.17966
+2.21798
+2.24796
+2.2402
+2.25649
+2.25285
+1.88241
+1.77355
+1.3581
+1.22238
+1.22238
+2.26081
+2.25972
+2.26274
+2.26326
+1.22238
+1.22238
+2.17195
+2.25711
+2.26323
+1.22238
+2.1974
+2.26338
+1.22238
+1.22238
+2.25347
+2.26486
+1.22238
+2.24868
+1.32955
+2.25812
+1.22238
+1.22238
+1.22238
+1.25192
+1.22238
+1.22252
+2.26741
+2.26144
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.27616
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.25326
+2.22591
+1.22238
+1.22238
+1.22238
+1.22238
+1.22239
+1.22271
+1.22312
+1.22813
+1.23425
+1.28038
+1.33345
+1.52554
+1.24659
+1.41725
+1.75395
+1.62992
+1.48923
+1.60447
+1.80731
+1.9132
+2.05287
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.27192
+1.22238
+1.22238
+1.22238
+2.22159
+2.27779
+1.22238
+1.22238
+2.29325
+1.22238
+2.16111
+1.94658
+1.22238
+1.22238
+1.4176
+1.27094
+2.11604
+2.18069
+2.14268
+1.22238
+2.21637
+2.19571
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22239
+1.22239
+1.22243
+1.22241
+1.22265
+1.22251
+2.18785
+2.08076
+1.22354
+1.22297
+1.22238
+1.22238
+1.53375
+1.31807
+1.87312
+1.22238
+1.22238
+1.2224
+2.23522
+2.22495
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.26608
+2.26752
+2.26318
+1.40751
+2.25524
+2.25589
+2.25732
+2.2521
+2.25516
+2.25325
+2.25349
+2.25282
+2.25329
+2.24848
+2.25022
+1.22238
+1.23029
+1.23964
+1.22674
+1.22464
+1.22269
+1.22356
+1.23008
+1.22647
+1.24635
+1.23541
+1.29029
+1.26059
+1.39646
+1.32551
+1.56591
+1.46084
+1.75136
+1.64393
+1.67692
+1.26596
+1.22238
+2.31471
+2.37421
+2.45909
+1.91452
+2.16529
+2.20852
+2.23953
+2.23213
+2.24694
+2.23864
+1.22281
+1.27129
+2.18389
+2.26331
+2.25982
+1.22238
+1.22238
+2.26042
+2.25723
+2.25793
+2.2549
+2.25554
+2.2566
+1.76956
+1.22291
+2.26575
+1.22238
+1.22238
+2.12925
+1.82396
+2.40101
+1.22238
+2.2073
+2.16439
+1.39017
+1.25995
+1.22238
+1.22238
+1.22238
+1.51214
+1.22238
+2.32377
+1.22238
+2.24714
+1.99763
+1.84023
+1.39143
+1.22259
+1.33568
+1.22239
+1.22514
+1.69226
+1.22238
+1.22238
+1.22238
+1.24562
+1.22238
+1.22238
+1.22238
+2.25862
+2.25618
+2.2111
+2.25138
+1.22238
+1.22477
+1.22238
+1.22238
+1.22254
+2.27088
+2.03175
+1.88867
+1.30477
+1.22242
+2.61395
+2.8169
+1.22238
+1.9383
+1.22238
+1.22238
+2.23958
+1.22238
+1.22238
+2.24432
+2.25287
+2.25265
+3.08058
+2.226
+2.19959
+2.24892
+1.22238
+2.23652
+1.22238
+2.25084
+1.22238
+2.23374
+2.26527
+1.22238
+1.22238
+1.22238
+2.21942
+2.14934
+2.2502
+2.24927
+1.22345
+1.22238
+1.22293
+1.22238
+2.20006
+1.22249
+2.24438
+1.22238
+1.22238
+1.22238
+3.206
+1.22238
+2.46268
+2.37465
+2.08191
+2.14038
+2.04049
+2.18226
+2.10412
+1.97507
+2.22856
+2.25949
+2.25616
+2.25377
+2.25452
+2.2524
+2.27977
+2.25827
+2.25758
+2.2554
+2.25495
+2.25731
+2.25435
+2.25189
+2.25679
+2.25393
+2.25332
+2.25954
+1.64573
+2.26501
+1.22243
+2.49344
+2.12377
+2.2288
+1.85408
+1.9469
+1.78751
+1.6383
+2.25131
+1.22238
+1.94274
+2.24303
+1.22238
+1.5763
+1.88015
+1.34083
+1.41896
+1.30004
+1.49078
+1.2237
+2.25558
+2.25301
+2.25274
+1.72405
+1.22466
+1.22238
+1.22238
+1.22238
+1.22238
+1.22239
+2.23596
+1.24596
+1.25428
+1.2831
+1.22479
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22257
+1.22239
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.2368
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.57036
+1.39108
+1.4655
+1.22401
+1.22253
+1.23741
+1.22238
+1.22238
+2.26058
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+2.29526
+2.25275
+1.22238
+2.25072
+2.24857
+1.39215
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.97402
+1.22238
+1.22238
+1.22238
+1.96124
+2.16681
+2.22117
+2.23296
+2.24424
+2.2462
+1.22238
+2.00535
+2.25061
+1.22238
+1.22238
+1.22238
+2.25939
+2.27912
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22238
+1.22372
+1.22238
+1.22327
+1.22238
+1.22238
+1.25215
+1.23099
+1.22245
+1.22598
+2.09128
+1.30993
+1.22306
+1.22238
+1.23013
+1.28699
+2.24404
+1.22238
+1.22238
+1.22238
+1.22238
+2.02485
+1.22238
+2.24185
+2.2803
+1.22262
+2.21271
+1.22238
+2.25722
+1.99643
+1.51151
+1.22238
+1.22239
+1.2224
+1.22238
+1.22238
+2.15148
+1.2224
+1.22238
+2.10314
+1.22238
+2.23726
+1.70089
+1.22248
+1.2224
+1.22238
+1.22683
+1.22238
+1.22238
+1.23819
+2.26337
+1.24915
+2.24661
+1.22238
+1.22238
+2.349
+1.51779
+2.123
+1.7068
+2.24991
+1.22238
+1.5983
+2.75501
+2.26104
+2.22842
+2.02079
+2.1172
+1.22238
+2.06572
+2.16836
+2.06698
+2.26145
+2.25919
+1.22238
+1.22245
+1.22238
+1.22241
+1.22238
+3.31398
+1.22238
+2.08226
+2.24743
+1.23072
+2.67721
+2.58745
+1.22238
+3.61156
+3.42134
+2.24925
+1.22238
+2.1465
+2.46496
+2.09886
+3.05384
+2.25125
+2.03895
+1.96714
+2.22712
+1.22238
+1.22238
+2.02359
+1.22238
+1.8242
+2.24637
+1.22238
+1.63729
+1.7506
+1.22238
+1.22239
+1.22238
+1.22238
+1.22238
+1.22238
+2.2199
+2.24144
+1.31956
+2.25275
+1.72868
+1.22238
+2.25184
+1.55438
+2.25078
+1.33611
+2.16305
+1.26286
+2.2493
+1.22238
+2.25965
+1.22238
+1.23574
+1.22666
+2.27903
+1.22238
+2.25151
+1.22368
+1.9493
+1.22274
+1.30984
+1.22238
+1.22247
+2.24738
+1.2224
+1.22238
+1.22239
+1.22238
+1.22238
+1.22238
+2.24359
+2.25393
+3.71966
+3.46745
+1.22238
+1.22238
+1.22238
+2.2518
+2.47036
+2.20216
+1.22238
+1.22238
+2.77979
+1.22238
+1.22238
+1.22238
+2.25072
+1.22238
+2.23906
+1.22238
+1.22238
+2.25268
+1.22238
+2.24778
 SCALARS pressure float
 LOOKUP_TABLE default
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
-nan
+101353
+143239
+250124
+515329
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+238212
+251397
+259827
+260948
+255919
+252206
+251038
+250377
+249866
+249570
+249500
+249567
+249717
+249835
+249904
+249946
+249988
+250007
+250017
+250029
+250033
+250047
+250056
+250060
+250063
+250067
+250069
+250069
+250072
+250074
+250076
+250083
+250097
+250172
+250352
+250870
+252603
+257780
+275403
+313567
+374638
+441947
+485802
+506777
+508048
+489868
+461315
+421045
+365618
+296492
+223498
+165785
+128392
+111477
+104711
+102429
+101688
+101451
+101379
+101359
+101354
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+231042
+101353
+248526
+101353
+249261
+101353
+101353
+249873
+101353
+250008
+250049
+101436
+180831
+101353
+250063
+259380
+101353
+101353
+109651
+101353
+350893
+158416
+101353
+101353
+250077
+389842
+101353
+102252
+101358
+101353
+101353
+101353
+101353
+101353
+101353
+243729
+249163
+249719
+249971
+250026
+250060
+250960
+451979
+250185
+101353
+101353
+488892
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101361
+101356
+101426
+101387
+101353
+101353
+101786
+101565
+103310
+102344
+108497
+105116
+101851
+103312
+113470
+107936
+132619
+120537
+101353
+101353
+159332
+143471
+101353
+101353
+186169
+170501
+129232
+154499
+195592
+181153
+215305
+204054
+228974
+221019
+101602
+237694
+232531
+102236
+101353
+101353
+101353
+101353
+101353
+242984
+239816
+246099
+244200
+235768
+241750
+246791
+245291
+248260
+247378
+191071
+175744
+118280
+101353
+101353
+249087
+248582
+249545
+249275
+101353
+101353
+235184
+247890
+248966
+101353
+238371
+249801
+101353
+101353
+247097
+248964
+101353
+247467
+114707
+248881
+101353
+101353
+101353
+104882
+101353
+101369
+249748
+249728
+101353
+101353
+101353
+101353
+101353
+101353
+250829
+101353
+101353
+101353
+101353
+101353
+101353
+246884
+242607
+101353
+101353
+101353
+101353
+101353
+101391
+101439
+102030
+102764
+108492
+115384
+141385
+104275
+126453
+173981
+155862
+135922
+151924
+180976
+196854
+217951
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+250585
+101353
+101353
+101353
+241822
+250553
+101353
+101353
+253611
+101353
+232556
+202571
+101353
+101353
+126724
+107340
+228072
+238212
+231818
+101353
+243931
+240175
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101354
+101353
+101359
+101356
+101384
+101368
+236726
+220392
+101488
+101421
+101353
+101353
+142954
+113489
+191967
+101353
+101353
+101354
+247074
+244911
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+250011
+250384
+250080
+124991
+248659
+249193
+249600
+248419
+249544
+249057
+249763
+249469
+249900
+248130
+248888
+101353
+102297
+103448
+101862
+101616
+101389
+101490
+102255
+101830
+104197
+102887
+109604
+105926
+123246
+114054
+145990
+131754
+171990
+156867
+161462
+106588
+101353
+256630
+266218
+279780
+195688
+234992
+241844
+247378
+245698
+248704
+246414
+101403
+107255
+237590
+250248
+250088
+101353
+101353
+250037
+250059
+250037
+250055
+250040
+250080
+177181
+101415
+248583
+101353
+101353
+227777
+182531
+270137
+101353
+242948
+236095
+123340
+106030
+101353
+101353
+101353
+140828
+101353
+258541
+101353
+249258
+207979
+186327
+122528
+101377
+115573
+101354
+101676
+164218
+101353
+101353
+101353
+104105
+101353
+101353
+101353
+250004
+250019
+240398
+249711
+101353
+101631
+101353
+101353
+101372
+251053
+212918
+191789
+111930
+101357
+305785
+340506
+101353
+203099
+101353
+101353
+248280
+101353
+101353
+249289
+250058
+250061
+387461
+246483
+242169
+249639
+101353
+248247
+101353
+249968
+101353
+248233
+250704
+101353
+101353
+101353
+243248
+231914
+249382
+249853
+101477
+101353
+101418
+101353
+239844
+101366
+247796
+101353
+101353
+101353
+408084
+101353
+280780
+266811
+223219
+232799
+217324
+239979
+227731
+207950
+244411
+250166
+250119
+250077
+250060
+250088
+251941
+249309
+249812
+249910
+249977
+249924
+250012
+250033
+249985
+250029
+250046
+249846
+158614
+249695
+101359
+285359
+226517
+246460
+186829
+200481
+177218
+158105
+249893
+101353
+200575
+248491
+101353
+147786
+191482
+116023
+126218
+110838
+135795
+101506
+249787
+249968
+250004
+169101
+101619
+101353
+101353
+101353
+101353
+101353
+245330
+104139
+105190
+108794
+101634
+101353
+101353
+101353
+101353
+101353
+101375
+101354
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+103053
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+146192
+122365
+132286
+101543
+101370
+103140
+101353
+101353
+249429
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+254491
+247882
+101353
+250003
+250009
+122853
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+205692
+101353
+101353
+101353
+207640
+238813
+246891
+248507
+249795
+249934
+101353
+211068
+250063
+101353
+101353
+101353
+249658
+250969
+101353
+101353
+101353
+101353
+101353
+101353
+101353
+101513
+101353
+101456
+101353
+101353
+104944
+102365
+101361
+101777
+223514
+112114
+101431
+101353
+102260
+109167
+246985
+101353
+101353
+101353
+101353
+213110
+101353
+249550
+252927
+101381
+241586
+101353
+250320
+208421
+139150
+101353
+101354
+101355
+101353
+101353
+230966
+101355
+101353
+224578
+101353
+244501
+169018
+101365
+101355
+101353
+101873
+101353
+101353
+103221
+249955
+104539
+246147
+101353
+101353
+261840
+139481
+228108
+165738
+250056
+101353
+150482
+329456
+249981
+243232
+211593
+226170
+101353
+218238
+233794
+219274
+249890
+249948
+101353
+101361
+101353
+101357
+101353
+428634
+101353
+224934
+249987
+102332
+317255
+301063
+101353
+483029
+449632
+250039
+101353
+230523
+280639
+223199
+381752
+250065
+214169
+203461
+242522
+101353
+101353
+211432
+101353
+182156
+249623
+101353
+155677
+175290
+101353
+101353
+101353
+101353
+101353
+101353
+245953
+249066
+113570
+250110
+168755
+101353
+250045
+144415
+250026
+115357
+237404
+106187
+249955
+101353
+250339
+101353
+102923
+101852
+252423
+101353
+250069
+101503
+205167
+101395
+112482
+101353
+101363
+249810
+101355
+101353
+101354
+101353
+101353
+101353
+249462
+250104
+503343
+457188
+101353
+101353
+101353
+250053
+282721
+243506
+101353
+101353
+334326
+101353
+101353
+101353
+250040
+101353
+249416
+101353
+101353
+250071
+101353
+249907
 
 VECTORS velocity float
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
-nan nan 0.0
+852.4 -3.88069e-14 0.0
+812.631 32.4323 0.0
+705.033 188.888 0.0
+593.118 3.17067 0.0
+852.4 -2.49821e-14 0.0
+852.4 -9.75903e-14 0.0
+852.4 -1.03751e-13 0.0
+852.4 -5.22238e-14 0.0
+852.4 -5.87662e-14 0.0
+852.4 -3.48112e-14 0.0
+852.4 -3.19884e-14 0.0
+852.4 -2.66032e-14 0.0
+730.475 106.041 0.0
+713.111 142.328 0.0
+703.347 160.831 0.0
+697.987 178.297 0.0
+699.073 185.937 0.0
+700.606 188.343 0.0
+701.231 188.407 0.0
+701.901 188.414 0.0
+702.528 188.478 0.0
+703.084 188.531 0.0
+703.409 188.508 0.0
+703.566 188.474 0.0
+703.764 188.491 0.0
+703.892 188.535 0.0
+703.988 188.581 0.0
+704.073 188.618 0.0
+704.161 188.646 0.0
+704.241 188.675 0.0
+704.312 188.702 0.0
+704.386 188.721 0.0
+704.442 188.737 0.0
+704.521 188.754 0.0
+704.58 188.774 0.0
+704.632 188.791 0.0
+704.675 188.805 0.0
+704.717 188.817 0.0
+704.766 188.83 0.0
+704.812 188.844 0.0
+704.858 188.855 0.0
+704.894 188.864 0.0
+704.931 188.875 0.0
+704.968 188.884 0.0
+705.004 188.891 0.0
+705.102 188.842 0.0
+705.226 188.695 0.0
+705.326 188.244 0.0
+704.991 186.604 0.0
+703.224 181.558 0.0
+696.273 164.517 0.0
+678.56 132.405 0.0
+651.065 87.1344 0.0
+623.568 45.2692 0.0
+604.64 20.5199 0.0
+595.566 8.47301 0.0
+596.974 2.98962 0.0
+604.724 4.60966 0.0
+617.751 7.33513 0.0
+636.244 12.0619 0.0
+662.947 18.8696 0.0
+700.116 27.4103 0.0
+746.715 33.3557 0.0
+791.155 29.0947 0.0
+825.647 16.795 0.0
+842.32 7.31613 0.0
+849.104 2.4873 0.0
+851.358 0.80013 0.0
+852.077 0.253049 0.0
+852.306 0.0751615 0.0
+852.375 0.0203927 0.0
+852.394 0.00475306 0.0
+852.399 0.000923944 0.0
+852.4 0.00016206 0.0
+852.4 2.24563e-05 0.0
+852.4 3.70998e-06 0.0
+852.4 6.51805e-07 0.0
+852.4 5.61592e-09 0.0
+852.4 3.77755e-14 0.0
+852.4 -2.98355e-14 0.0
+852.4 -2.48123e-14 0.0
+852.4 -3.3723e-14 0.0
+852.4 1.82339e-14 0.0
+852.4 -2.00851e-14 0.0
+852.4 3.39343e-14 0.0
+852.4 3.7011e-14 0.0
+852.4 2.90058e-14 0.0
+852.4 3.30873e-14 0.0
+852.4 3.63595e-14 0.0
+852.4 1.84348e-14 0.0
+852.4 -3.84093e-14 0.0
+852.4 -3.6553e-14 0.0
+852.4 -2.47489e-14 0.0
+852.4 -2.24675e-14 0.0
+852.4 7.04582e-15 0.0
+852.4 -3.99028e-14 0.0
+852.4 -3.86636e-14 0.0
+852.4 -1.11689e-14 0.0
+852.4 2.92417e-14 0.0
+852.4 4.67665e-14 0.0
+852.4 3.06945e-14 0.0
+852.4 -2.39628e-14 0.0
+852.4 -3.19839e-14 0.0
+852.4 3.9083e-14 0.0
+852.4 4.51765e-14 0.0
+852.4 2.88294e-14 0.0
+852.4 3.27622e-14 0.0
+852.4 3.22479e-14 0.0
+852.4 -2.93384e-14 0.0
+852.4 -2.77304e-14 0.0
+852.4 1.20255e-14 0.0
+852.4 -3.99171e-14 0.0
+852.4 1.91996e-14 0.0
+852.4 -4.32832e-14 0.0
+717.638 171.17 0.0
+852.4 3.30369e-14 0.0
+703.895 187.328 0.0
+852.4 2.55122e-14 0.0
+704.421 188.182 0.0
+852.4 2.80698e-14 0.0
+852.4 1.16852e-08 0.0
+704.37 188.59 0.0
+852.4 0.000346167 0.0
+704.502 188.73 0.0
+704.728 188.804 0.0
+852.32 0.162404 0.0
+773.02 78.2373 0.0
+852.4 -1.62301e-14 0.0
+704.922 188.863 0.0
+703.112 179.971 0.0
+852.4 -2.72424e-14 0.0
+852.4 3.52457e-14 0.0
+843.555 14.8559 0.0
+852.4 -2.77825e-14 0.0
+666.014 51.9318 0.0
+786.731 92.4169 0.0
+852.4 -2.69669e-14 0.0
+852.4 -1.62818e-14 0.0
+705.01 188.887 0.0
+645.665 76.7309 0.0
+852.4 -2.86975e-14 0.0
+851.517 1.70538 0.0
+852.395 0.0104107 0.0
+852.4 7.55674e-06 0.0
+852.4 2.71622e-14 0.0
+852.4 3.15205e-14 0.0
+852.4 -8.66731e-14 0.0
+852.4 4.65042e-14 0.0
+852.4 3.10586e-14 0.0
+707.123 182.382 0.0
+703.962 188.21 0.0
+704.262 188.481 0.0
+704.416 188.684 0.0
+704.673 188.772 0.0
+704.824 188.835 0.0
+705.543 188.221 0.0
+618.849 22.0276 0.0
+705.196 188.831 0.0
+852.4 -1.92846e-14 0.0
+852.4 -2.50471e-14 0.0
+603.021 16.9091 0.0
+852.4 -2.6184e-14 0.0
+852.4 -3.31804e-14 0.0
+852.4 -3.8407e-14 0.0
+852.4 -1.75523e-14 0.0
+852.4 -3.05982e-14 0.0
+852.4 -1.65554e-14 0.0
+852.4 2.74115e-14 0.0
+852.4 4.52271e-15 0.0
+852.4 -2.15309e-15 0.0
+852.4 -1.59615e-14 0.0
+852.4 3.16124e-15 0.0
+852.4 -2.66643e-14 0.0
+852.4 -3.18185e-14 0.0
+852.4 -2.51862e-14 0.0
+852.4 -1.38338e-14 0.0
+852.4 2.23667e-14 0.0
+852.4 1.74561e-14 0.0
+852.4 1.10931e-14 0.0
+852.4 2.57381e-14 0.0
+852.4 -7.76303e-15 0.0
+852.4 -2.20611e-15 0.0
+852.4 -3.48575e-14 0.0
+852.4 9.544e-16 0.0
+852.4 -2.14869e-14 0.0
+852.4 1.67312e-14 0.0
+852.4 -1.46666e-14 0.0
+852.4 0.000487991 0.0
+852.4 0.00021796 0.0
+852.4 2.99202e-15 0.0
+852.4 9.73227e-05 0.0
+852.393 0.0171185 0.0
+852.397 0.0077027 0.0
+852.33 0.159852 0.0
+852.367 0.075519 0.0
+852.4 -2.04968e-14 0.0
+852.4 3.37901e-14 0.0
+851.974 0.951484 0.0
+852.194 0.466132 0.0
+850.406 4.2623 0.0
+851.413 2.16904 0.0
+844.661 15.1014 0.0
+848.482 8.1145 0.0
+851.912 1.09225 0.0
+850.419 4.26746 0.0
+838.885 24.8276 0.0
+845.375 13.973 0.0
+816.168 57.4527 0.0
+830.467 37.5695 0.0
+852.4 4.34721e-05 0.0
+852.4 1.90476e-14 0.0
+787.09 95.5566 0.0
+804.1 73.8048 0.0
+852.4 3.45177e-14 0.0
+852.4 2.5928e-14 0.0
+760.854 127.946 0.0
+776.061 109.749 0.0
+820.356 52.1962 0.0
+792.513 89.342 0.0
+752.469 138.34 0.0
+766.043 122.486 0.0
+735.271 158.328 0.0
+745.221 147.276 0.0
+723.918 171.132 0.0
+730.752 163.922 0.0
+852.158 0.546784 0.0
+716.868 178.911 0.0
+721.307 174.481 0.0
+851.518 1.93362 0.0
+852.4 8.47824e-15 0.0
+852.4 3.20236e-14 0.0
+852.4 1.64491e-14 0.0
+852.4 3.04704e-14 0.0
+852.4 -2.30583e-14 0.0
+712.625 183.483 0.0
+715.437 180.847 0.0
+710.102 186.106 0.0
+711.908 184.565 0.0
+718.982 177.361 0.0
+714.146 182.51 0.0
+709.789 186.71 0.0
+711.273 185.491 0.0
+708.537 187.902 0.0
+709.538 187.222 0.0
+757.184 133.768 0.0
+770.502 115.861 0.0
+833.306 33.6219 0.0
+852.4 -2.04947e-14 0.0
+852.4 -2.87711e-14 0.0
+707.776 188.555 0.0
+708.489 188.193 0.0
+707.296 188.897 0.0
+707.837 188.711 0.0
+852.4 1.71965e-14 0.0
+852.4 -3.98425e-14 0.0
+718.632 176.591 0.0
+709.33 187.612 0.0
+708.42 188.314 0.0
+852.4 2.81469e-14 0.0
+717.054 179.639 0.0
+706.974 189.061 0.0
+852.4 1.27282e-14 0.0
+852.4 3.06003e-14 0.0
+710.286 186.558 0.0
+708.929 187.247 0.0
+852.4 3.22745e-14 0.0
+708.715 187.159 0.0
+837.209 27.055 0.0
+707.719 188.367 0.0
+852.4 -1.31306e-14 0.0
+852.4 -4.60296e-15 0.0
+852.4 -3.48328e-14 0.0
+848.766 7.62054 0.0
+852.4 2.93351e-14 0.0
+852.384 0.0356341 0.0
+707.789 188.52 0.0
+706.81 188.987 0.0
+852.4 -2.50057e-14 0.0
+852.4 9.18281e-15 0.0
+852.4 -2.08355e-14 0.0
+852.4 -1.69848e-14 0.0
+852.4 3.48547e-14 0.0
+852.4 -1.99071e-14 0.0
+707.814 186.817 0.0
+852.4 2.96008e-14 0.0
+852.4 3.95335e-14 0.0
+852.4 2.49137e-14 0.0
+852.4 2.30394e-14 0.0
+852.4 3.18362e-14 0.0
+852.4 2.93555e-14 0.0
+711.147 184.105 0.0
+714.159 182.224 0.0
+852.4 -2.36112e-14 0.0
+852.4 -1.84599e-14 0.0
+852.4 -1.36462e-16 0.0
+852.4 -3.40122e-14 0.0
+852.4 0.00109317 0.0
+852.363 0.0846229 0.0
+852.316 0.188245 0.0
+851.722 1.48419 0.0
+850.949 3.08191 0.0
+844.449 15.051 0.0
+835.863 28.0235 0.0
+804.88 69.8997 0.0
+849.28 6.32203 0.0
+822.464 47.0968 0.0
+770.719 112.901 0.0
+789.381 90.3055 0.0
+812.042 62.4 0.0
+794.137 85.3146 0.0
+764.919 121.709 0.0
+749.933 139.066 0.0
+731.627 160.32 0.0
+852.4 1.92068e-14 0.0
+852.4 4.0368e-14 0.0
+852.4 1.17184e-14 0.0
+852.4 3.4248e-14 0.0
+852.4 1.94291e-14 0.0
+852.4 1.96039e-14 0.0
+852.4 3.88601e-06 0.0
+852.4 1.73766e-06 0.0
+852.4 -3.25345e-14 0.0
+852.4 -3.18548e-14 0.0
+852.4 -3.20869e-14 0.0
+707.237 188.207 0.0
+852.4 -3.01653e-14 0.0
+852.4 2.8454e-14 0.0
+852.4 -3.41657e-14 0.0
+715.891 176.853 0.0
+710.687 176.572 0.0
+852.4 6.00137e-14 0.0
+852.4 -1.26901e-14 0.0
+706.494 184.795 0.0
+852.4 3.47556e-14 0.0
+722.489 172.258 0.0
+744.278 144.681 0.0
+852.4 -3.29779e-14 0.0
+852.4 1.36859e-14 0.0
+821.837 47.3567 0.0
+845.669 12.6866 0.0
+722.977 169.676 0.0
+714.83 178.813 0.0
+720.227 173.223 0.0
+852.4 3.53019e-14 0.0
+710.275 183.794 0.0
+713.535 180.626 0.0
+852.4 -3.23565e-14 0.0
+852.4 -2.49196e-14 0.0
+852.4 -3.22524e-14 0.0
+852.4 3.11593e-14 0.0
+852.4 -1.731e-14 0.0
+852.4 2.17908e-14 0.0
+852.4 0.000316047 0.0
+852.4 0.000144023 0.0
+852.4 8.84826e-07 0.0
+852.4 6.7705e-05 0.0
+852.399 0.00173843 0.0
+852.4 0.000784454 0.0
+852.395 0.0124174 0.0
+852.397 0.00599759 0.0
+852.371 0.0673009 0.0
+852.385 0.033265 0.0
+718.679 177.847 0.0
+732.084 162.505 0.0
+852.27 0.296875 0.0
+852.334 0.150365 0.0
+852.4 8.75635e-15 0.0
+852.4 3.0683e-14 0.0
+802.975 71.8467 0.0
+837.908 24.341 0.0
+753.629 133.328 0.0
+852.4 -7.96467e-15 0.0
+852.4 2.3689e-14 0.0
+852.399 0.00319197 0.0
+707.736 186.481 0.0
+709.762 184.716 0.0
+852.4 2.38496e-05 0.0
+852.4 -9.74781e-16 0.0
+852.4 2.60726e-14 0.0
+852.4 -1.37922e-14 0.0
+852.4 1.65388e-14 0.0
+852.4 -2.21713e-14 0.0
+852.4 1.48095e-14 0.0
+852.4 -3.57606e-14 0.0
+852.4 -5.88755e-16 0.0
+852.4 7.02773e-15 0.0
+707.078 188.975 0.0
+706.771 188.765 0.0
+706.531 189.087 0.0
+824.608 44.9066 0.0
+707.673 188.135 0.0
+706.916 188.479 0.0
+706.465 188.79 0.0
+707.644 187.854 0.0
+706.287 188.673 0.0
+706.802 188.297 0.0
+705.744 188.763 0.0
+706.123 188.556 0.0
+705.493 188.84 0.0
+707.642 187.547 0.0
+706.701 188.101 0.0
+852.4 -5.57845e-15 0.0
+851.404 2.06528 0.0
+850.066 4.54177 0.0
+851.903 1.11679 0.0
+852.145 0.579224 0.0
+852.366 0.0788997 0.0
+852.268 0.300878 0.0
+851.513 1.9771 0.0
+851.936 1.04733 0.0
+849.523 6.16757 0.0
+850.878 3.34968 0.0
+843.614 17.3636 0.0
+847.689 9.82348 0.0
+827.553 42.325 0.0
+838.51 26.0311 0.0
+801.865 77.6136 0.0
+817.794 56.3594 0.0
+775.261 111.777 0.0
+790.525 92.6926 0.0
+785.649 98.5802 0.0
+846.959 11.205 0.0
+852.4 3.63982e-14 0.0
+706.067 180.013 0.0
+701.904 171.713 0.0
+696.889 156.328 0.0
+753.197 138.785 0.0
+717.965 176.164 0.0
+712.489 182.161 0.0
+707.738 186.796 0.0
+709.393 185.448 0.0
+706.599 187.892 0.0
+709.081 186.122 0.0
+852.352 0.110105 0.0
+846.198 12.5845 0.0
+716.166 178.546 0.0
+706.333 188.953 0.0
+706.056 189.064 0.0
+852.4 8.68359e-06 0.0
+852.4 -2.43364e-14 0.0
+706.203 189.103 0.0
+705.746 189.032 0.0
+705.868 189.056 0.0
+705.442 188.974 0.0
+705.547 188.994 0.0
+705.637 188.998 0.0
+767.787 117.291 0.0
+852.34 0.135874 0.0
+714.838 161.876 0.0
+852.4 4.82065e-16 0.0
+852.4 -9.87489e-15 0.0
+725.826 170.165 0.0
+765.326 124.22 0.0
+703.472 152.309 0.0
+852.4 3.27547e-14 0.0
+710.788 182.873 0.0
+716.277 176.824 0.0
+825.794 42.0339 0.0
+846.793 9.83701 0.0
+852.4 -3.02319e-14 0.0
+852.4 -3.16995e-14 0.0
+852.4 -6.57343e-14 0.0
+804.743 68.862 0.0
+852.4 2.64947e-14 0.0
+704.4 180.253 0.0
+852.4 -1.70474e-14 0.0
+705.764 188.269 0.0
+742.337 151.361 0.0
+759.243 127.439 0.0
+828.483 40.887 0.0
+852.377 0.0531783 0.0
+835.877 28.486 0.0
+852.399 0.00244884 0.0
+852.082 0.709314 0.0
+781.637 101.625 0.0
+852.4 2.87559e-14 0.0
+852.4 -2.11968e-14 0.0
+852.4 2.8282e-14 0.0
+849.638 5.96616 0.0
+852.4 2.23239e-14 0.0
+852.4 3.11124e-14 0.0
+852.4 1.43852e-14 0.0
+706.008 189.068 0.0
+705.666 189.009 0.0
+715.569 181.391 0.0
+705.569 188.675 0.0
+852.4 2.1616e-14 0.0
+852.131 0.611274 0.0
+852.4 -2.69129e-14 0.0
+852.4 -2.04835e-14 0.0
+852.382 0.0412901 0.0
+706.377 188.159 0.0
+739.303 151.545 0.0
+757.274 132.845 0.0
+838.727 19.8019 0.0
+852.396 0.00889321 0.0
+684.938 135.389 0.0
+669.327 104.008 0.0
+852.4 2.8141e-14 0.0
+743.557 146.052 0.0
+852.4 -2.08835e-14 0.0
+852.4 3.40208e-14 0.0
+706.419 187.437 0.0
+852.4 3.34417e-14 0.0
+852.4 -3.10679e-14 0.0
+705.338 188.216 0.0
+705.169 188.916 0.0
+705.135 188.907 0.0
+646.937 75.7894 0.0
+707.598 185.881 0.0
+711.19 182.15 0.0
+705.375 188.569 0.0
+852.4 2.47432e-14 0.0
+706.02 187.336 0.0
+852.4 2.79595e-14 0.0
+705.054 188.804 0.0
+852.4 3.57686e-14 0.0
+705.52 187.407 0.0
+706.009 188.495 0.0
+852.4 3.2742e-14 0.0
+852.4 -2.15382e-14 0.0
+852.4 -2.13573e-14 0.0
+711.639 183.438 0.0
+721.017 173.597 0.0
+705.95 188.434 0.0
+705.051 188.697 0.0
+852.28 0.272597 0.0
+852.4 -4.9211e-14 0.0
+852.31 0.136609 0.0
+852.4 -2.8347e-14 0.0
+714.636 180.584 0.0
+852.386 0.0275904 0.0
+707.661 187.206 0.0
+852.4 -3.01424e-14 0.0
+852.4 1.79899e-14 0.0
+852.4 1.62252e-15 0.0
+638.528 34.299 0.0
+852.4 -1.81242e-14 0.0
+695.23 158.728 0.0
+700.842 172.429 0.0
+726.721 165.012 0.0
+718.784 173.817 0.0
+731.563 159.39 0.0
+712.608 180.572 0.0
+722.759 169.725 0.0
+739.197 150.443 0.0
+710.974 184.506 0.0
+705.916 188.976 0.0
+705.529 188.947 0.0
+705.265 188.926 0.0
+705.387 188.957 0.0
+705.061 188.896 0.0
+706.554 187.099 0.0
+707.042 188.647 0.0
+706.168 188.936 0.0
+705.741 188.919 0.0
+705.574 188.947 0.0
+705.957 188.997 0.0
+705.438 188.948 0.0
+705.08 188.87 0.0
+705.796 189.014 0.0
+705.355 188.945 0.0
+705.248 188.927 0.0
+706.368 189.016 0.0
+786.189 93.6268 0.0
+707.405 188.949 0.0
+852.394 0.0123135 0.0
+701.804 71.5363 0.0
+739.05 82.9929 0.0
+707.927 185.89 0.0
+761.158 128.993 0.0
+748.777 143.591 0.0
+770.101 117.872 0.0
+787.339 93.5652 0.0
+705.256 188.78 0.0
+852.4 -3.32118e-14 0.0
+747.527 143.387 0.0
+706.474 187.653 0.0
+852.4 -1.11353e-14 0.0
+799.04 79.7933 0.0
+755.427 133.584 0.0
+836.125 29.6395 0.0
+824.031 47.2902 0.0
+842.171 19.8144 0.0
+813.03 62.4984 0.0
+852.25 0.337404 0.0
+705.958 188.844 0.0
+705.341 188.872 0.0
+705.245 188.886 0.0
+776.172 107.445 0.0
+852.142 0.584308 0.0
+852.4 -4.16271e-14 0.0
+852.4 -3.06839e-14 0.0
+852.4 1.13403e-15 0.0
+852.4 1.53837e-14 0.0
+852.4 0.000703481 0.0
+710.482 185.367 0.0
+849.565 5.17663 0.0
+848.36 8.26703 0.0
+844.207 15.6812 0.0
+852.128 0.540667 0.0
+852.4 -1.40225e-14 0.0
+852.4 2.75276e-14 0.0
+852.4 3.15009e-14 0.0
+852.4 3.75368e-14 0.0
+852.4 1.94499e-05 0.0
+852.379 0.0441181 0.0
+852.399 0.00200532 0.0
+852.4 4.54687e-05 0.0
+852.4 9.82825e-05 0.0
+852.4 1.57757e-05 0.0
+852.4 1.36036e-06 0.0
+852.4 3.15569e-06 0.0
+852.4 2.33117e-08 0.0
+852.4 1.13194e-13 0.0
+852.4 1.62725e-13 0.0
+852.4 2.01977e-14 0.0
+852.4 3.52564e-13 0.0
+852.4 3.17337e-14 0.0
+852.4 7.61323e-09 0.0
+852.4 2.45141e-14 0.0
+852.4 3.49885e-14 0.0
+852.4 8.39902e-15 0.0
+852.4 -3.8686e-14 0.0
+850.704 3.70947 0.0
+852.4 4.31914e-14 0.0
+852.4 -1.67115e-14 0.0
+852.4 -2.91484e-14 0.0
+852.4 -2.34898e-14 0.0
+852.4 2.80075e-14 0.0
+852.4 1.58819e-14 0.0
+852.4 -1.43999e-14 0.0
+852.4 -3.23443e-14 0.0
+852.4 3.20145e-14 0.0
+852.4 -2.25999e-14 0.0
+804.221 59.0495 0.0
+829.352 33.6307 0.0
+817.111 55.4975 0.0
+852.211 0.418723 0.0
+852.383 0.038044 0.0
+850.57 3.89476 0.0
+852.4 -1.57546e-14 0.0
+852.4 3.03253e-14 0.0
+707.169 188.781 0.0
+852.4 -2.26287e-14 0.0
+852.4 2.52138e-14 0.0
+852.4 -2.44777e-14 0.0
+852.4 -3.15681e-14 0.0
+852.4 -1.6149e-14 0.0
+852.4 -4.15587e-14 0.0
+852.4 -7.53784e-14 0.0
+852.4 1.47869e-14 0.0
+852.4 -4.73011e-14 0.0
+852.4 -4.15426e-14 0.0
+705.453 184.643 0.0
+708.611 187.573 0.0
+852.4 1.58874e-14 0.0
+704.974 188.818 0.0
+704.651 188.753 0.0
+827.473 41.4509 0.0
+852.4 -3.35946e-14 0.0
+852.4 2.92646e-14 0.0
+852.4 -3.20872e-14 0.0
+852.4 -1.86403e-14 0.0
+852.4 1.09556e-14 0.0
+852.4 1.61102e-14 0.0
+852.4 -1.17493e-14 0.0
+852.4 1.04709e-14 0.0
+852.4 -2.022e-14 0.0
+742.439 148.399 0.0
+852.4 -1.47089e-14 0.0
+852.4 -2.52258e-16 0.0
+852.4 -5.02635e-15 0.0
+737.981 148.319 0.0
+710.817 179.01 0.0
+704.938 185.37 0.0
+704.328 187.664 0.0
+704.3 188.539 0.0
+704.392 188.646 0.0
+852.4 -1.59304e-14 0.0
+737.152 153.455 0.0
+704.856 188.848 0.0
+852.4 -2.35575e-14 0.0
+852.4 2.69007e-14 0.0
+852.4 1.47294e-14 0.0
+706.641 188.9 0.0
+708.755 183.62 0.0
+852.4 8.4218e-15 0.0
+852.4 3.16547e-14 0.0
+852.4 2.54643e-14 0.0
+852.4 1.63152e-14 0.0
+852.4 -2.63303e-14 0.0
+852.4 1.61658e-14 0.0
+852.4 -7.48723e-11 0.0
+852.14 0.26196 0.0
+852.4 -1.52229e-14 0.0
+852.3 0.227657 0.0
+852.4 3.04084e-14 0.0
+852.4 0.000421586 0.0
+848.589 7.74362 0.0
+851.397 2.21524 0.0
+852.392 0.0179768 0.0
+851.968 0.931653 0.0
+727.315 165.723 0.0
+840.639 22.3143 0.0
+852.325 0.171956 0.0
+852.4 -2.6655e-14 0.0
+851.512 1.98598 0.0
+844.206 16.4919 0.0
+708.871 186.67 0.0
+852.4 -1.59561e-14 0.0
+852.4 2.19797e-14 0.0
+852.4 2.722e-14 0.0
+852.4 2.31314e-14 0.0
+736.34 155.886 0.0
+852.4 -1.41232e-14 0.0
+704.313 188.364 0.0
+705.175 186.348 0.0
+852.366 0.0617494 0.0
+713.498 182.176 0.0
+852.4 -3.90796e-14 0.0
+705.404 188.754 0.0
+740.913 151.458 0.0
+807.914 67.0003 0.0
+852.4 -1.7677e-14 0.0
+852.399 0.00155982 0.0
+852.398 0.00346808 0.0
+852.4 2.1127e-14 0.0
+852.4 1.27794e-14 0.0
+725.819 161.356 0.0
+852.398 0.00366466 0.0
+852.4 3.49861e-14 0.0
+727.272 166.991 0.0
+852.4 -1.47652e-14 0.0
+712.315 184.736 0.0
+774.554 104.801 0.0
+852.389 0.0257362 0.0
+852.397 0.00549109 0.0
+852.4 2.77837e-14 0.0
+851.891 1.14176 0.0
+852.4 -3.4006e-14 0.0
+852.4 1.71758e-14 0.0
+850.524 4.07206 0.0
+706.734 189.116 0.0
+849.152 6.89549 0.0
+710.775 186.24 0.0
+852.4 2.5853e-14 0.0
+852.4 2.10906e-14 0.0
+705.104 170.462 0.0
+808.851 68.0798 0.0
+723.83 170.063 0.0
+781.305 104.098 0.0
+704.768 188.818 0.0
+852.4 -2.74875e-14 0.0
+796.94 83.7858 0.0
+675.704 95.3475 0.0
+706.367 189.111 0.0
+713.141 183.813 0.0
+739.077 155.011 0.0
+726.835 168.798 0.0
+852.4 3.41607e-14 0.0
+733.537 161.286 0.0
+720.852 175.689 0.0
+731.424 161.941 0.0
+706.56 189.08 0.0
+706.167 189.06 0.0
+852.4 -3.66933e-14 0.0
+852.393 0.0167742 0.0
+852.4 -3.61481e-14 0.0
+852.397 0.00783122 0.0
+852.4 7.06665e-15 0.0
+628.622 45.615 0.0
+852.4 1.59734e-14 0.0
+724.089 166.772 0.0
+704.511 188.712 0.0
+851.434 2.14313 0.0
+676.799 129.085 0.0
+688.275 131.407 0.0
+852.4 3.58338e-14 0.0
+605.432 14.5855 0.0
+620.517 39.1228 0.0
+704.701 188.791 0.0
+852.4 3.37947e-14 0.0
+723.396 172.69 0.0
+701.51 120.509 0.0
+729.493 166.09 0.0
+649.985 67.9716 0.0
+704.94 188.867 0.0
+737.112 157.564 0.0
+746.412 146.56 0.0
+723.292 133.231 0.0
+852.4 3.21245e-14 0.0
+852.4 -5.02084e-14 0.0
+744.039 131.035 0.0
+852.4 -2.73448e-14 0.0
+767.565 114.097 0.0
+705.037 188.478 0.0
+852.4 -9.37907e-14 0.0
+792.4 87.325 0.0
+768.725 115.151 0.0
+852.4 7.57716e-15 0.0
+852.4 0.000754454 0.0
+852.4 -3.05445e-14 0.0
+852.4 -1.35779e-14 0.0
+852.4 6.23002e-07 0.0
+852.4 2.76176e-14 0.0
+707.521 185.511 0.0
+705.295 188 0.0
+838.894 23.0592 0.0
+705.079 188.889 0.0
+778.835 107.326 0.0
+852.4 3.08142e-14 0.0
+705.054 188.876 0.0
+803.817 75.1371 0.0
+704.943 188.829 0.0
+836.553 27.3931 0.0
+713.859 178.238 0.0
+847.243 10.0037 0.0
+704.867 188.749 0.0
+852.4 -1.60723e-14 0.0
+705.713 188.791 0.0
+852.4 8.29287e-15 0.0
+850.825 3.36091 0.0
+851.913 1.08173 0.0
+705.809 186.787 0.0
+852.4 3.50681e-14 0.0
+704.969 188.877 0.0
+852.254 0.327816 0.0
+740.48 148.407 0.0
+852.36 0.0906312 0.0
+839.163 21.4063 0.0
+852.4 -3.37848e-14 0.0
+852.39 0.0215956 0.0
+704.845 188.615 0.0
+852.398 0.00427413 0.0
+852.4 -8.23038e-15 0.0
+852.399 0.00160255 0.0
+852.4 5.51728e-14 0.0
+852.4 1.2027e-14 0.0
+852.4 0.000202138 0.0
+704.886 188.308 0.0
+705.252 188.908 0.0
+597.387 7.23621 0.0
+616.674 33.2685 0.0
+852.4 3.49458e-05 0.0
+852.4 -8.83554e-15 0.0
+852.4 1.42319e-06 0.0
+705.034 188.877 0.0
+693.173 158.369 0.0
+708.865 183.594 0.0
+852.4 3.48526e-14 0.0
+852.4 1.44526e-08 0.0
+670.621 115.271 0.0
+852.4 5.99378e-13 0.0
+852.4 1.55566e-14 0.0
+852.4 2.58018e-14 0.0
+704.91 188.832 0.0
+852.4 4.12072e-14 0.0
+703.794 188.371 0.0
+852.4 -3.47811e-14 0.0
+852.4 -1.00222e-14 0.0
+705.124 188.905 0.0
+852.4 -3.4074e-14 0.0
+704.729 188.676 0.0
